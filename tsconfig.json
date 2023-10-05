@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "baseUrl": ["."],
+      "@/*": ["./*"]
+    },
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "outDir": "dist"
+  },
+  "include": ["next-env.d.ts", "/**/*.ts", "src/**/*.ts", "src/app.ts"],
+  "exclude": ["node_modules"]
+}
